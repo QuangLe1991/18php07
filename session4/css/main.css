@@ -1,0 +1,105 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	color: black;
+	position : absolute;
+	top :0px;
+}
+.logo {
+	width: 40%;
+	float: left;
+}
+.menu {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.menu ul li {
+	width: 45%;
+	height: 50px;
+	margin: 1%;
+	float: left;
+	list-style-type: none;
+	box-shadow: 5px 5px 5px gray;
+	background-color: pink;
+	line-height: 50px;
+	text-align: center;
+}
+.menu ul li a {
+	text-decoration: none;
+	font-size: 150%;
+	font-weight: bold;
+}
+#container {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	position: absolute;
+	top : 100px;
+}
+#banner {
+	width: 100%;
+	float: left;
+}
+#banner .news {
+	width: 60%;
+	margin : 0 auto;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px gray;
+	background-color: none;
+}
+#banner .news h1 {
+	font-weight: bold;
+	font-size: 300%;
+	color: red;
+	font-style: italic;
+	font-family: Georgia;
+}
+#body {
+	width: 100%;
+	height: auto;
+	float: left;
+	overflow: auto;
+}
+#body .content1 {
+	width: 48%;
+	font-size: 95%;
+	float: left;
+	margin: 1%;
+	text-align: center;
+}
+#body .content2 {
+	width: 48%;
+	font-size: 95%;
+	float: left;
+	margin: 1%;
+	text-align: center;
+}
+#body .content3 {
+	width: 98%;
+	font-size: 95%;
+	float: left;
+	margin: 1%;	
+	text-align: center;
+}
+#footer {
+	width: 100%;
+	height: 100px;
+	position : absolute;
+	background-color: #838383;
+	bottom: 0px;
+}
+#footer p {
+	text-align: center;
+	line-height: 12px;
+	font-size: 150%;
+	font-weight: bold;
+}
