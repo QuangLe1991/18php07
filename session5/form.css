@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+body {
+	width: 100%;
+}
+p {	
+	padding-top: 10px;	
+}
+h1 {
+	padding-bottom: 2%;
+	font-weight: bold;
+}
+a {
+	padding-top: 2px;
+}
+#Login {
+	width: 46%;
+	margin : 2%;
+	float: left;
+}
+#Register {
+	width: 46%;
+	margin: 2%;
+	float: left;
+}
+#Login form {
+	width: 90%;
+	border: 1px solid black;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 10%; 
+	padding-right: 3%;
+}
+#Login form .useroremail {
+	width: 100%;
+	float : left;
+}
+#Login form .useroremail input {
+	width: 98%;
+	float : left;
+}
+#Login form .password {
+	width: 100%;
+	float : left;
+}
+#Login form .password input {
+	width: 98%;
+	float : left;
+}
+#Login form .submit {
+	width: 90%;
+	padding-top: 50px;
+	float : left;
+}
+#Register form {
+	width: 90%;
+	border: 1px solid black;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 10%; 
+	padding-right: 3%;
+}
+#Register form .phone {
+	width: 100%;
+	float : left;
+}
+#Register form .phone input{
+	width: 98%;
+	float: left;
+}
+#Register form .first {
+	width: 48.5%;
+	padding-right: 1%;
+	float : left;
+}
+#Register form .first input{
+	width: 98%;
+	float : left;
+}
+#Register form .last {
+	width: 48.5%;
+	padding-left: 1%;
+	float : left;
+}
+#Register form .last input{
+	width: 98%;
+	float : left;
+}
+#Register form .register {
+	width: 30%;
+	padding-top: 50px;
+	float : left;
+}
+#Register form .register input{
+	width: 48%;
+	float : left;
+}
+@media screen and (max-width: 480px) {
+	#Login {
+		width: 96%;
+	
+	}
+	#Register {
+		width: 96%;
+	}
+}
