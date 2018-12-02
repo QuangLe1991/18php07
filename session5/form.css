@@ -8,6 +8,11 @@ body {
 }
 p {	
 	padding-top: 10px;	
+	float: left;
+}
+.star {
+	float:left;
+	color: red;
 }
 h1 {
 	padding-bottom: 2%;
@@ -53,6 +58,14 @@ a {
 #Login form .submit {
 	width: 90%;
 	padding-top: 50px;
+}
+#Login form .submit .butsubmit {
+	margin-right: 5px;
+	float : left;
+}
+#Login form .submit .boxsubmit {
+	margin-right: 15px;
+	margin-top: 3px;
 	float : left;
 }
 #Register form {
@@ -90,7 +103,7 @@ a {
 	float : left;
 }
 #Register form .register {
-	width: 30%;
+	width: 40%;
 	padding-top: 50px;
 	float : left;
 }
