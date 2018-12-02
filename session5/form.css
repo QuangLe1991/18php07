@@ -95,7 +95,7 @@ a {
 	float : left;
 }
 #Register form .register input{
-	width: 48%;
+	width: 78px;
 	float : left;
 }
 @media screen and (max-width: 480px) {
