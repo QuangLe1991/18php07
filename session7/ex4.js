@@ -18,9 +18,15 @@ function MonthChecking(month, year) {
 					document.write("Thang 2 nam ",year," co 28 ngay");
 				}
 				break;
-			default:
+			case 4:
+			case 6:
+			case 9:
 				document.write("Thang ",month," nam ",year," co 30 ngay");
 				break;
+			default:
+				document.write("Thang ",month," khong phai thang cua nam");
+				break;
+
 		}
 }
-MonthChecking(2, 2000)
+MonthChecking(13, 2000)
