@@ -26,7 +26,6 @@ function MonthChecking(month, year) {
 			default:
 				document.write("Thang ",month," khong phai thang cua nam");
 				break;
-
 		}
 }
-MonthChecking(13, 2000)
+MonthChecking(3, 2000);
