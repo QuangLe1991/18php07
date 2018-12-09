@@ -40,3 +40,17 @@ function SquareNumberChecking() {
 	}
 }
 
+function PerfectNumberChecking() {
+	var num = parseInt(document.getElementById('Number').value);
+	var sum = 0;
+	for (i = 1; i <= (num / 2); i++) {
+		if (num % i == 0) {
+			sum = sum + i;		
+		}
+	}
+	if (num == sum) {
+		document.getElementById('Check').innerHTML = "<br>So " + num + " la mot so hoan hao";			
+	} else {
+		document.getElementById('Check').innerHTML = "<br>So " + num + " khong phai la mot so hoan hao";			
+	}
+}
