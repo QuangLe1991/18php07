@@ -1,5 +1,5 @@
-var month;
-function MonthChecking(month) {
+function MonthChecking() {
+	var month = parseInt(document.getElementById('Month').value);
 	switch(month) {
 		case 1:
 		case 2:
@@ -13,10 +13,12 @@ function MonthChecking(month) {
 		case 10:
 		case 11:
 		case 12:
-			document.write("Day la thang ", month);
+			// document.write("Day la thang ", month);
+			document.getElementById('Check').innerHTML = "<br>Day la thang " + month;
 			break;
 		default:
-			document.write("Day khong phai la thang trong nam");
+			// document.write("Day khong phai la thang trong nam");
+			document.getElementById('Check').innerHTML = "<br>Day khong phai la mot thang trong nam"
 			break;
 	}
 

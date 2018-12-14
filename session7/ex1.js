@@ -1,20 +1,28 @@
-var a, b;
-a = 5;
-b = 6;
-function cong(a, b) {
-	document.write("Tong hai so ",a ," va ",b ," la : ",a + b,"<br>");
+function Addition() {
+	var a = parseInt(document.getElementById('a').value);
+	var b = parseInt(document.getElementById('b').value);
+	// document.write("Tong hai so ",a ," va ",b ," la : ",a + b,"<br>");
+	var c = a + b;
+	document.getElementById('Check').innerHTML = "<br>" + a + " + " + b + " = "+ c;
 }
-function tru(a, b) {
-	document.write("Hieu hai so ",a ," va ",b ," la : ",a - b,"<br>");
+function Substraction() {
+	var a = parseInt(document.getElementById('a').value);
+	var b = parseInt(document.getElementById('b').value);
+	var c = a - b;
+	// document.write("Hieu hai so ",a ," va ",b ," la : ",a - b,"<br>");
+	document.getElementById('Check').innerHTML = "<br>" + a + " - " + b + " = "+ c;
 }
-function nhan(a, b) {
-	document.write("Tich hai so ",a ," va ",b ," la : ",a * b,"<br>");
+function Multiplication() {
+	var a = parseInt(document.getElementById('a').value);
+	var b = parseInt(document.getElementById('b').value);
+	var c = a * b;
+	// document.write("Tich hai so ",a ," va ",b ," la : ",a * b,"<br>");
+	document.getElementById('Check').innerHTML = "<br>" + a + " x " + b + " = "+ c;
 }
-function chia(a, b) {
-	document.write("Thuong hai so ",a ," va ",b ," la : ",a / b,"<br>");
+function Division() {
+	var a = parseInt(document.getElementById('a').value);
+	var b = parseInt(document.getElementById('b').value);
+	var c = a / b;
+	// document.write("Thuong hai so ",a ," va ",b ," la : ",a / b,"<br>");
+	document.getElementById('Check').innerHTML = "<br>" + a + " / " + b + " = "+ c;
 }
-cong(a, b);
-tru(a, b);
-nhan(a, b);
-chia(a, b);
-cong(7, 2);
