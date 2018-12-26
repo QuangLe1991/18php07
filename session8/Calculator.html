@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	<meta name="viewport" content="width= device-width, initial-scale = 1">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1><strong>CALCULATOR</strong></h1>
+		</header>
+		<div id="display">
+			<div id="input"></div>
+			<div id="result"></div>
+		</div>
+		<div id="button">
+			<input class="button_number" type="button" name="number_7" value="7" onclick="click_button(7)">
+			<input class="button_number" type="button" name="number_8" value="8" onclick="click_button(8)">
+			<input class="button_number" type="button" name="number_9" value="9" onclick="click_button(9)">
+			<input class="button_operation" type="button" name="divison" value="÷" onclick="click_button('/')">
+			<input class="button_number" type="button" name="number_4" value="4" onclick="click_button(4)">
+			<input class="button_number" type="button" name="number_5" value="5" onclick="click_button(5)">
+			<input class="button_number" type="button" name="number_6" value="6" onclick="click_button(6)">
+			<input class="button_operation" type="button" name="multiplication" value="x" onclick="click_button('*')">
+			<input class="button_number" type="button" name="number_1" value="1" onclick="click_button(1)">
+			<input class="button_number" type="button" name="number_2" value="2" onclick="click_button(2)">
+			<input class="button_number" type="button" name="number_3" value="3" onclick="click_button(3)">
+			<input class="button_operation" type="button" name="minus" value="-" onclick="click_button('-')">
+			<input class="button_number" type="button" name="number_0" value="0" onclick="click_button(0)">
+			<input class="button_number" type="button" name="dot" value="." onclick="click_button('.')">
+			<input class="button_result" type="button" name="equal" value="=" onclick="calculate()">
+			<input class="button_operation" type="button" name="plus" value="+" onclick="click_button('+')">
+			<input class="button_ce" type="button" name="ce" value="CE" onclick="click_button('ce')">
+		</div>
+	</div>	
+	<script type="text/javascript" src="Calculator.js"></script>
+</body>
+</html>
