@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+form {
+	width: 520px;
+	margin: 0 auto;
+	border: 1px solid black;
+	height: 550px;
+}
+h1	{
+	text-align: center;
+}
+#formrow {
+	display: block;
+    margin-bottom: 20px;
+        vertical-align: middle;
+}
+#year {
+	width: 105px;
+	border: 2px solid #dcdcdc;
+	font-size: 2.0em;
+}
+#submit {
+	width: 105px;
+	/*font-size: 2.0em;*/
+	margin: 0 auto;
+}
+#Male, #Female {
+	border: 2px solid #dcdcdc;
+	font-size: 2.0em;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#name {
+    width: 340px;
+    border: 2px solid #dcdcdc;
+    font-size: 2.0em;
+}
+p {
+    display: block;
+    float: left;
+    margin-top: 12px;
+    width: 160px;
+    color: #444;
+    font-size: 30px;
+
+}

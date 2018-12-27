@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - Session8</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form id="form">
+		<h1>REGISTER FORM</h1> <br>
+		<div id="formrow">
+			<p>Ho va ten : </p>
+			<input id="name" type="text" name="Ten" value="" placeholder="Nhap ho ten">
+		</div>	
+		<div id="formrow">
+			<p>Nam sinh : </p>
+			<select id="year"></select>
+		</div>
+		<div id="formrow">
+			<p>Gioi tinh : </p>
+			<input id="Male" type="radio" name="Gender" value="Nam">Name
+			<input id="Female" type="radio" name="Gender" value="Nu">Nu
+		</div>
+		<div id="formrow">
+			<input id="submit" type="button" value="Submit" onclick="BackgroundChange()">
+		</div>
+		<div>
+			<p>Avatar</p>
+			<img id="avatar" src="default.png">
+		</div>
+	</form>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
