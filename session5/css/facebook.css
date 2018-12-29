@@ -1,0 +1,73 @@
+* {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+.inputext {
+	height: 13px;
+}
+#container {
+	min-width: 980px;
+	height: 100%;
+}
+header	{
+	min-width: 980px;
+	height: 82px;
+	background-color: #29487d;
+}
+#menubar {
+	margin: 0 auto;
+	padding-top: 13px;
+	width : 980px;
+	height: 69px;
+}
+#facebook {
+	width: 30%;
+	height: 69px;
+	float: left;
+}
+#facebook a {
+	text-decoration: none;
+}
+#facebook h1	{
+	color: white;
+	font-family: inherit;
+	line-height: 69px;
+}
+#login	{
+	width: 60%;
+	height: 69px;
+	float: right;
+}
+#login p {
+	color :	white;
+}
+#login #email {
+	width: 38% ;
+	float: left;
+}
+#login #password {
+	width: 38% ;
+	float: left;
+	margin-left: 1%;
+}
+#login #submit {
+	width: 20% ;
+	float: left;
+	margin-left: 1%;
+}
+@media screen and (max-width: 980px) {
+	#container {
+		min-width: 100%;
+	}
+	header {
+		min-width: 100%;
+		height: 100%;
+	}
+	#menubar {
+		width: 100%;
+	}
+	p {
+
+	}
+}
